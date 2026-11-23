@@ -1,3 +1,7 @@
+<div align="center">
+  <img src="your%20decor.png" width="100%" alt="Your Decor Website">
+</div>
+
 Your Decor — Your home, your choice
 
 Your Decor is a full-stack e-commerce website for home decor and culinary items such as mirrors, vases, plants, furniture, dinnerware and glassware. Users can browse products by category, view product details, add items to a cart, register or log in, place orders, and track each order until delivery. An admin panel manages order processing.
