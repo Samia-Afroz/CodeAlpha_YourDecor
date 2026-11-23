@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your Decor | Your home, your choice</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,700;1,500&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+  <div id="header"></div>
+
+  <!-- Hero slider -->
+  <section class="hero" id="hero">
+    <div class="slide active">
+      <div class="slide-images">
+        <img src="/images/products/neutral-tall-vases.jpg" alt="">
+        <img src="/images/products/heart-ceramic-vases.jpg" alt="">
+        <img src="/images/products/sage-green-vase-trio.jpg" alt="">
+      </div>
+      <div class="slide-text">
+        <h2>Home Decor</h2>
+        <p>Solution at its best</p>
+        <a href="/products.html" class="btn">Shop Now</a>
+      </div>
+    </div>
+    <div class="slide">
+      <div class="slide-images">
+        <img src="/images/products/cinnamon-ribbed-dinnerware.jpg" alt="">
+        <img src="/images/products/ribbed-gold-rim-coupes.jpg" alt="">
+        <img src="/images/products/plum-dinnerware-set.jpg" alt="">
+      </div>
+      <div class="slide-text">
+        <h2>Elegant Tableware</h2>
+        <p>Plates, cutlery &amp; glasses</p>
+        <a href="/products.html?category=plates" class="btn">Explore</a>
+      </div>
+    </div>
+    <div class="slide">
+      <div class="slide-images">
+        <img src="/images/products/pink-aglaonema.jpg" alt="">
+        <img src="/images/products/pink-orchid.jpg" alt="">
+        <img src="/images/products/lavender-pot.jpg" alt="">
+      </div>
+      <div class="slide-text">
+        <h2>Bring Nature In</h2>
+        <p>Plants for every corner</p>
+        <a href="/products.html?category=plants" class="btn">Shop Plants</a>
+      </div>
+    </div>
+    <div class="slide">
+      <div class="slide-images">
+        <img src="/images/products/rattan-egg-chair.jpg" alt="">
+        <img src="/images/products/boucle-loveseat.jpg" alt="">
+        <img src="/images/products/arched-led-gold-mirror.jpg" alt="">
+      </div>
+      <div class="slide-text">
+        <h2>Cozy Living</h2>
+        <p>Furniture &amp; mirrors you will love</p>
+        <a href="/products.html?category=furniture" class="btn">Shop Furniture</a>
+      </div>
+    </div>
+    <button class="slider-btn prev" id="prevSlide" aria-label="Previous">‹</button>
+    <button class="slider-btn next" id="nextSlide" aria-label="Next">›</button>
+    <div class="dots" id="dots"></div>
+  </section>
+
+  <!-- Categories -->
+  <section class="section">
+    <div class="container">
+      <h2 class="section-title">Category</h2>
+      <p class="section-sub">Find the perfect piece for every room and every table</p>
+      <div class="category-grid" id="categoryGrid"></div>
+    </div>
+  </section>
+
+  <!-- Featured products -->
+  <section class="section cream">
+    <div class="container">
+      <h2 class="section-title">Featured Products</h2>
+      <p class="section-sub">Our customers' favourites</p>
+      <div class="product-grid" id="featuredGrid"></div>
+      <div style="text-align:center;margin-top:30px"><a href="/products.html" class="btn">View All Products</a></div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section class="section" id="about">
+    <div class="container" style="max-width:800px;text-align:center">
+      <h2 class="section-title">About Your Decor</h2>
+      <p>Your Decor brings together handpicked home decor and culinary essentials — from mirrors, vases and plants
+        to dinner plates, cutlery and glassware. Because your home should reflect you: <em>your home, your choice.</em></p>
+    </div>
+  </section>
+
+  <div id="footer"></div>
+
+  <script src="/js/main.js"></script>
+  <script src="/js/home.js"></script>
+</body>
+</html>
