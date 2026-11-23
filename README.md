@@ -1,15 +1,16 @@
 <div align="center">
-  <img src="your%20decor.png" width="100%" alt="Your Decor Website">
+  <img src="Your%20Decor.png" width="100%" alt="Your Decor Website">
 </div>
 
-Your Decor — Your home, your choice
+# Your Decor — *Your home, your choice*
 
-Your Decor is a full-stack e-commerce website for home decor and culinary items such as mirrors, vases, plants, furniture, dinnerware and glassware. Users can browse products by category, view product details, add items to a cart, register or log in, place orders, and track each order until delivery. An admin panel manages order processing.
+**Your Decor** is a full-stack e-commerce website for home decor and culinary items such as mirrors, vases, plants, furniture, dinnerware and glassware. Users can browse products by category, view product details, add items to a cart, register or log in, place orders, and track each order until delivery. An admin panel manages order processing.
 
-Built for CodeAlpha Full Stack Development Internship
+Built for **CodeAlpha Full Stack Development Internship — Task 1**.
 
-Tech Stack
-Frontend: HTML, CSS, JavaScript
-Backend: Node.js, Express.js
-Database: MongoDB (Mongoose)
-Authentication: JWT, bcryptjs
+## Tech Stack
+
+- **Frontend:** HTML, CSS, JavaScript
+- **Backend:** Node.js, Express.js
+- **Database:** MongoDB (Mongoose)
+- **Authentication:** JWT, bcryptjs
